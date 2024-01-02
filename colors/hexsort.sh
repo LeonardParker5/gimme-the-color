@@ -14,4 +14,3 @@ sort -n -k1 -o "$temp_file" "$temp_file"
 cat "$temp_file" | cut -d' ' -f2-
 
 rm "$temp_file"
-
